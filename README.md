@@ -1,7 +1,7 @@
   <h1 align="center">EPSiloN: Efficient Point Sampling for Reducing Inference Latency of NeRF-based Avatar Video Generation
  </h1>
   <div align="center">
-    <img src="assets/teaser.gif" alt="teaser" width="100%">
+    <img src="teaser.gif" alt="teaser" width="100%">
   </div>
 </p>
 
@@ -25,22 +25,22 @@ Compared to existing methods, EPSiloN maintains the generation quality only with
 ## Method Overview
 
 <div align="center">
-  <img src="assets/structure.png" alt="visualize" width="100%">
+  <img src="structure.png" alt="visualize" width="100%">
 </div>
 
-EPSiloN proposes an efficient point sampling strategies in the avatar generation based on the monocular video, which results in comparable results to the state-of-the-art models while reducing the inference latency significantly.
+EPSiloN proposes an efficient point sampling strategy in the avatar generation based on the monocular video, which results in comparable results to the state-of-the-art models while reducing the inference latency significantly.
 
 ## Results
 
 <div align="center">
-  <img src="assets/visualize.gif" alt="visualize" width="100%">
+  <img src="visualize.gif" alt="visualize" width="100%">
 </div>
 
 Along with the input image, we visualize the reconstructed image with RGB representation and mesh representation. Moreover, we show the depth image of the mesh, and obtained $T_n$ and $T_f$ together for the better understanding. We visualize (ground truth, rendered image, mesh representation, $D(M')$, $T_n$, $T_f$), respectively, in the figure above. $T_n$ and $T_f$ indeed find the appropriate interval using $D(M')$.
 
 
 <div align="center">
-  <img src="assets/new.gif" alt="visualize" width="100%">
+  <img src="new.gif" alt="visualize" width="100%">
 </div>
 
 In the figure above, we visualize the novel view generation and novel pose generation of four subjects in People Snapshot datasets. While achieving 15 times faster rendering speed compared to the baseline, our model robustly generates the novel contents of given subjects.
