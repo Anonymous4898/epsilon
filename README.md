@@ -33,7 +33,7 @@ EPSiloN proposes an efficient point sampling strategy in the avatar generation b
 ## Results
 
 <div align="center">
-  <img src="visualize.gif" alt="visualize" width="100%">
+  <img src="frames.gif" alt="visualize" width="100%">
 </div>
 
 Along with the input image, we visualize the reconstructed image with RGB representation and mesh representation. Moreover, we show the depth image of the mesh, and obtained $T_n$ and $T_f$ together for the better understanding. We visualize (ground truth, rendered image, mesh representation, $D(M')$, $T_n$, $T_f$), respectively, in the figure above. $T_n$ and $T_f$ indeed find the appropriate interval using $D(M')$.
